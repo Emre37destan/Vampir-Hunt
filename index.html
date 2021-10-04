@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bir Vampir Avı</title>
+		<link rel="stylesheet" href="css/vamp.css">
+	</head>
+	<body>
+	<h1 class="title">Bir Vampir Avı</h1>
+	<div class="main">
+		<div id="stats" class="column">
+			<div>
+				<h3 class="miniTitle">İstatistikler</h3>
+				<hr />
+				<span id="spanCounter" class="hiddenCounter noRed"><span id="counter">0</span> saattir<span id="singularHours" class="noRed"></span> ölüsünüz..</span>
+				<span id="spanInitMsg" class="spanInitMsg noRed">Sen ölüsün!</span>
+			</div>
+			<div id="divCycle" class="cycle">Şu anda: <span id="cycle"></span></div>
+			<div>Kan: <span id="blood">0</span></div>
+			<div class="hp" id="hpDiv">HP: <span id="hp">20</span></div>
+			<div class="gold" id="goldDiv">Altın: <span id="gold">0</span></div>
+			<h3 class="miniTitle">Hareketler</h3>
+			<hr />
+		</div>
+		<div id="middleCol" class="column middleCol">
+			<div id="shop" class="shop">
+				<h4 class="miniTitle">Karanlık Bir Sokak</h4>
+				<hr />
+				Herp Derp Derp
+			</div>
+			<div id="battle" class="battle">
+				<hr />
+			</div>
+		</div>
+		<div id="log" class="log column">
+			<h3 class="miniTitle">Olay günlüğü</h3>
+			<hr />
+			<div id="msg" class="msg"></div>
+		</div>
+	</div>
+		<script src="js/player.js"></script>
+		<script src="js/element.js"></script>
+		<script src="js/engine.js"></script>
+		<script src="js/vampire.js"></script>
+		<div class="footer">
+			<a href="https://github.com/kral">Bu Projeyi Github'da Takip Edin!</a>
+		</div>
+	</body>
+</html>
